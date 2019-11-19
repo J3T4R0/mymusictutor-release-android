@@ -1,0 +1,32 @@
+{
+  "name": "react-native-klarna",
+  "version": "0.2.0",
+  "description": "A React Native wrapper around Klarna Checkout SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Daniil Ovoshchnikov<ovo.dan@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/dov11/react-native-klarna",
+  "repository": "https://github.com/dov11/react-native-klarna",
+  "peerDependencies": {
+    "react-native": ">=0.41.2"
+  },
+  "devDependencies": {
+    "@lightbase/eslint-config-lightbase": "^1.1.1",
+    "@types/react-native": "^0.60.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3",
+    "typescript": "^3.5.3"
+  }
+}
