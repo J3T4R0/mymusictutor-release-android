@@ -1,0 +1,114 @@
+2019-09-15 09:59:11 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.245.0>
+    registered_name: []
+    exception exit: {{"Error building response",[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.243.0>,<0.222.0>,<0.221.0>,ranch_sup,<0.213.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.243.0>]
+    dictionary: [{{cowboy_bridge,#Ref<0.702458360.3869507585.244353>},{request_cache,#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:8001">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/livefeed/hello">>,path_info => undefined,peer => {{127,0,0,1},51767},pid => <0.243.0>,port => 8001,qs => <<>>,ref => http,scheme => <<"http">>,sock => {{127,0,0,1},8001},streamid => 1,version => 'HTTP/1.1'},"./priv/static",<<>>}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 14529
+  neighbours:
+2019-09-15 09:59:11 =ERROR REPORT====
+Ranch listener http, connection process <0.243.0>, stream 1 had its request process <0.245.0> exit with reason "Error building response" and stacktrace [{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+2019-09-15 09:59:14 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.248.0>
+    registered_name: []
+    exception exit: {{"Error building response",[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.243.0>,<0.222.0>,<0.221.0>,ranch_sup,<0.213.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.243.0>]
+    dictionary: [{{cowboy_bridge,#Ref<0.702458360.3869507585.244707>},{request_cache,#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:8001">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},51767},pid => <0.243.0>,port => 8001,qs => <<>>,ref => http,scheme => <<"http">>,sock => {{127,0,0,1},8001},streamid => 2,version => 'HTTP/1.1'},"./priv/static",<<>>}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 14528
+  neighbours:
+2019-09-15 09:59:14 =ERROR REPORT====
+Ranch listener http, connection process <0.243.0>, stream 2 had its request process <0.248.0> exit with reason "Error building response" and stacktrace [{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+2019-09-15 10:03:07 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.254.0>
+    registered_name: []
+    exception exit: {{"Error building response",[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.252.0>,<0.222.0>,<0.221.0>,ranch_sup,<0.213.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.252.0>]
+    dictionary: [{{cowboy_bridge,#Ref<0.702458360.3869769729.55760>},{request_cache,#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:8001">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},51794},pid => <0.252.0>,port => 8001,qs => <<>>,ref => http,scheme => <<"http">>,sock => {{127,0,0,1},8001},streamid => 1,version => 'HTTP/1.1'},"./priv/static",<<>>}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 14829
+  neighbours:
+2019-09-15 10:03:07 =ERROR REPORT====
+Ranch listener http, connection process <0.252.0>, stream 1 had its request process <0.254.0> exit with reason "Error building response" and stacktrace [{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+2019-09-15 10:03:16 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.259.0>
+    registered_name: []
+    exception exit: {{"Error building response",[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.257.0>,<0.222.0>,<0.221.0>,ranch_sup,<0.213.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.257.0>]
+    dictionary: [{{cowboy_bridge,#Ref<0.702458360.3869769729.57209>},{request_cache,#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:8001">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/livefeed/hello">>,path_info => undefined,peer => {{127,0,0,1},51799},pid => <0.257.0>,port => 8001,qs => <<>>,ref => http,scheme => <<"http">>,sock => {{127,0,0,1},8001},streamid => 1,version => 'HTTP/1.1'},"./priv/static",<<>>}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 14351
+  neighbours:
+2019-09-15 10:03:16 =ERROR REPORT====
+Ranch listener http, connection process <0.257.0>, stream 1 had its request process <0.259.0> exit with reason "Error building response" and stacktrace [{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+2019-09-15 10:03:17 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.261.0>
+    registered_name: []
+    exception exit: {{"Error building response",[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.257.0>,<0.222.0>,<0.221.0>,ranch_sup,<0.213.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.257.0>]
+    dictionary: [{{cowboy_bridge,#Ref<0.702458360.3869769729.57540>},{request_cache,#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:8001">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"cross-site">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/livefeed/hello">>,path_info => undefined,peer => {{127,0,0,1},51799},pid => <0.257.0>,port => 8001,qs => <<>>,ref => http,scheme => <<"http">>,sock => {{127,0,0,1},8001},streamid => 2,version => 'HTTP/1.1'},"./priv/static",<<>>}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 14626
+  neighbours:
+2019-09-15 10:03:17 =ERROR REPORT====
+Ranch listener http, connection process <0.257.0>, stream 2 had its request process <0.261.0> exit with reason "Error building response" and stacktrace [{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+2019-09-15 10:03:17 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.263.0>
+    registered_name: []
+    exception exit: {{"Error building response",[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},[{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.257.0>,<0.222.0>,<0.221.0>,ranch_sup,<0.213.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.257.0>]
+    dictionary: [{{cowboy_bridge,#Ref<0.702458360.3869507587.222444>},{request_cache,#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:8001">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"cross-site">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/livefeed/hello">>,path_info => undefined,peer => {{127,0,0,1},51799},pid => <0.257.0>,port => 8001,qs => <<>>,ref => http,scheme => <<"http">>,sock => {{127,0,0,1},8001},streamid => 3,version => 'HTTP/1.1'},"./priv/static",<<>>}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 14630
+  neighbours:
+2019-09-15 10:03:17 =ERROR REPORT====
+Ranch listener http, connection process <0.257.0>, stream 3 had its request process <0.263.0> exit with reason "Error building response" and stacktrace [{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,30}]},{cowboy_simple_bridge_anchor,init,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,36}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,41}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,296}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,274}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
